@@ -123,26 +123,7 @@ Trigger a scan task manually:
 
     View logs or database entries to monitor detected sensitive data and alerts.
 
-Project Structure
 
-.
-├── app
-│   ├── api
-│   ├── core
-│   │   ├── alerting.py          # Email alert functions
-│   │   ├── detectors            # Regex and ML-based detection logic
-│   │   ├── parsers             # Document parsing modules (PDF, DOCX)
-│   │   ├── scanner.py           # Core scanning logic
-│   │   └── tasks.py             # Celery task definitions
-│   ├── config.py                # Application settings (Pydantic)
-│   ├── db                      # Database models and session
-│   ├── main.py                 # FastAPI app entry point (if applicable)
-│   └── models.py               # Pydantic models/schema
-├── celery_worker.py             # Celery worker starter
-├── requirements.txt             # Python dependencies
-├── trigger_task.py              # Script to trigger scan tasks
-├── README.md                   # Project documentation
-└── .gitignore                  # Git ignore rules
 
 Contributing
 
