@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+databases[sqlite]
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+celery[redis]
+redis
+python-multipart
+email-validator
+PyMuPDF
+python-docx

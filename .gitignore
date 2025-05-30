@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+venv/
+.env
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# Celery logs
+celerybeat-schedule
+celerybeat.pid
+
+# OS files
+.DS_Store
+
+# Environment-specific
+.env
+*.env
