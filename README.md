@@ -129,7 +129,7 @@ Contributing
 
 Contributions are welcome! Feel free to:
 
-    Report issues
+    Report issues (ttariyahgema@gmail.com)
 
     Suggest new features
 
